@@ -1,0 +1,10 @@
+package com.tahir.functionalprogramming.threads;
+
+public class FP01Threads {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

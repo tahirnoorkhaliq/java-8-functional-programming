@@ -1,0 +1,15 @@
+package com.tahir.functionalprogramming.fi;
+
+import java.util.function.BiPredicate;
+
+public class FI06BiPredicate {
+
+	public static void main(String[] args) {
+		BiPredicate<Integer, String> bp=(number,string)-> {
+			return number<10&&string.length()>5;
+		};
+
+		System.out.println(bp.test(9, "TahirNoor"));
+	}
+
+}

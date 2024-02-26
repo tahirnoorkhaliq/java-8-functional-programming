@@ -1,0 +1,11 @@
+package com.tahir.functionalprogramming;
+
+import java.util.List;
+
+public class FP06StreamOperations {
+	
+	public static void main(String[] args) {
+		List<Integer> ls = List.of(1, 10, 9, 8, 15, 7, 9, 32);
+	}
+
+}

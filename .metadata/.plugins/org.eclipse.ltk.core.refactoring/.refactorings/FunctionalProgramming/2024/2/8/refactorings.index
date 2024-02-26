@@ -1,0 +1,17 @@
+1708431264347	Rename type 'FP01Structured'
+1708431584671	Extract local variable 'ls'
+1708683764905	Extract local variable 'EvenPredicate'
+1708683789946	Extract local variable 'squareMapper'
+1708683824572	Extract local variable 'printAction'
+1708684804732	Extract local variable 'accumulator'
+1708685333993	Copy compilation unit
+1708685536944	Extract local variable 'evenPredicate'
+1708685556519	Extract local variable 'oddPredicate'
+1708685750280	Extract method 'extracted'
+1708685815248	Inline local variable 'evenPredicate'
+1708685826612	Inline local variable 'oddPredicate'
+1708686027077	Copy compilation unit
+1708686095015	Extract local variable 'mapper'
+1708686160034	Extract method 'extracted'
+1708692246789	Extract local variable 'supplier'
+1708698094234	Extract local variable 'identity'

@@ -1,0 +1,12 @@
+package com.tahir.functionalprogramming.fi;
+
+import java.util.stream.LongStream;
+
+public class FP15Parallelization {
+
+	public static void main(String[] args) {
+
+		System.out.println(LongStream.range(0, 1000000000).sum());
+	}
+
+}

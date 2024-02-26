@@ -1,0 +1,32 @@
+package com.tahir.functionalprogramming;
+
+import java.util.List;
+
+public class FP05ExerciseMaps {
+
+	public static void main(String[] args) {
+		List<Integer> ls = List.of(1, 10, 9, 8, 15, 7, 9, 32);
+		printAllNumbersLamdaExpression(ls);
+		List<String> courses = List.of("Spring", "Spring Boot", "API", "Microservices", "AWS", "PCF", "Azure", "Docker",
+				"Kubernetes");
+
+		printAllNumbersLamdaExpressiononCourses(courses);
+
+	}
+
+	public static void printCubeOfAllNumbersLamdaExpression(List<Integer> ls) {		
+		System.out.println("============Print the cubes of odd numbers============");
+		ls.stream().filter(number -> number % 2 != 0).map(number -> number * number * number).forEach(System.out::println);
+	}
+
+	public static void printAllNumbersLamdaExpressiononCourses(List<String> courses) {
+		System.out.println("Print All Courses individually");
+		courses.stream().forEach(System.out::println);
+		System.out.println("Print Courses Containing the word \"Spring\"");
+		courses.stream().filter(course -> course.contains("Spring")).forEach(System.out::println);
+		System.out.println("Print Courses Whose Name has atleast 4 letters");
+		courses.stream().filter(course -> course.length() <= 4).forEach(System.out::println);
+	}
+
+
+}

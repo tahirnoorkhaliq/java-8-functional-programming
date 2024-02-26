@@ -1,0 +1,10 @@
+package com.tahir.functionalprogramming.fi;
+
+public class FP13HighOrderFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

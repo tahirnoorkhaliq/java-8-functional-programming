@@ -1,0 +1,22 @@
+package com.tahir.functionalprogramming.threads;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class FP01Threads {
+
+	public static void main(String[] args) {
+		Runnable raRunnable = new Runnable() {
+
+			@Override
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(Thread.currentThread().getId() + " : " + i);
+				}
+
+			}
+		};
+
+	}
+
+}

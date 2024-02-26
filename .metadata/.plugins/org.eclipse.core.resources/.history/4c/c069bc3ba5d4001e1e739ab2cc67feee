@@ -1,0 +1,10 @@
+package com.tahir.functionalprogramming.fi;
+
+public class FP16ReplaceAllRemoveIf {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

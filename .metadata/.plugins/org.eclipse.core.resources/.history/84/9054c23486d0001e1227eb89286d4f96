@@ -1,0 +1,19 @@
+package com.tahir.functionalprogramming;
+
+import java.util.List;
+
+public class FP08DistinctSort {
+
+	public static void main(String[] args) {
+		List<Integer> ls = List.of(1, 10, 9, 8, 15, 7, 9, 32);
+
+		printDistinctNumbersLamdaExpression(ls);
+
+	}
+
+	private static void printDistinctNumbersLamdaExpression(List<Integer> ls) {
+		ls.stream().distinct().sorted().forEach(System.out::println);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.tahir.functionalprogramming.fi;
+
+import java.util.List;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+public class FI04ExerciseBehaviorParameterizationforMap {
+
+	public static void main(String[] args) {
+		List<Integer> ls = List.of(1, 10, 9, 8, 15, 7, 9, 32);
+
+		
+		Function<? super Integer, ? extends Integer> mapper = x -> x*x;
+		List squaredNumbers = ls.stream() .map(mapper) .collect(Collectors.toList());
+		
+		//Behavior of the method as Parameters
+		
+	}
+
+	private static void extracted(List<Integer> integerList, Predicate<? super Integer> predicate) {
+		integerList.stream().filter(predicate).forEach(System.out::println);
+	}
+
+	
+}

@@ -1,0 +1,21 @@
+package com.tahir.functionalprogramming;
+
+import java.util.List;
+
+public class FP07ExerciseStreamReduce {
+	
+	public static void main(String[] args) {
+		List<Integer> ls = List.of(1, 10, 9, 8, 15, 7, 9, 32);
+		System.out.println(printCubeOfAllNumbersLamdaExpression(ls));
+		
+
+	}
+
+	public static int printCubeOfAllNumbersLamdaExpression(List<Integer> ls) {		
+		System.out.println("============Print the cubes of odd numbers============");
+		return ls.stream().map(number -> number * number * number).reduce(0,Integer::sum);
+	}
+
+	
+
+}
