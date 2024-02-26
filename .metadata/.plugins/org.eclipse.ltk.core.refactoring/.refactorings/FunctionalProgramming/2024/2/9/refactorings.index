@@ -1,8 +1,0 @@
-1708930639895	Rename type 'FP04CustomClass'
-1708931337789	Extract local variable 'predicate'
-1708939763986	Rename type 'FPOpertionsWithCustomClass'
-1708940815058	Rename type 'FP10StreamOpertions'
-1708941148698	Extract local variable 'op'
-1708941618215	Extract local variable 'accumulator'
-1708942012773	Rename type 'FP0CreateStream'
-1708944841051	Rename type 'FP14HighOrderFunction'
